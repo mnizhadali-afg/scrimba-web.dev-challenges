@@ -1,0 +1,51 @@
+body {
+  background-color: #38425e;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 0.725rem;
+}
+
+.card-design {
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+header {
+  padding: 3rem 4rem;
+  background: linear-gradient(
+    45deg,
+    rgb(216, 26, 26) 0%,
+    rgb(29, 77, 197) 100%
+  );
+}
+
+header input[type="text"] {
+  outline: none;
+  border: none;
+  background-color: inherit;
+  color: white;
+  font-size: 3rem;
+  font-weight: bolder;
+  width: 2ch;
+}
+
+h1,
+h2 {
+  font-size: 0.825rem;
+  font-weight: bold;
+}
+
+.units {
+  background-color: rgb(10, 6, 31);
+  padding: 2rem 4rem;
+}

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(173, 216, 230, 0.527);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebubchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  font-size: 14px;
+}
+main {
+  border: 4px solid white;
+  border-radius: 10px;
+  background-color: rgb(3 8 31);
+  box-shadow: 3px -3px 40px #6babae;
+}
+header {
+  margin: 0;
+  text-align: center;
+  background: #6b8bfb;
+  padding: 40px 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+header h1 {
+  font-size: 1.5rem;
+}
+.app-body {
+  padding: 2rem;
+}
+.button {
+  background-color: lightblue;
+  border: none;
+  border-radius: 20px;
+  padding: 0.3rem 0.5rem;
+  color: #03081f;
+  font-size: 12px;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+.container {
+  margin: 2rem 0;
+}
+.task,
+.total {
+  font-size: 80%;
+  margin-bottom: 1rem;
+}
+.total,
+.price,
+.total-amount-title,
+.total-amount {
+  margin-left: auto;
+  color: yellow;
+}
+.price {
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: .8rem;
+}
+.row {
+  display: flex;
+}
+.remove {
+  color: white;
+  font-size: 0.75rem;
+  margin-left: 0.4rem;
+  font-style: italic;
+}
+.total-amount {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+footer {
+  padding-top: 1rem;
+  border-top: 1px solid white;
+}

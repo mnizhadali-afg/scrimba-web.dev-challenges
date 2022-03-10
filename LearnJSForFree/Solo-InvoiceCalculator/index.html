@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Invoice Creator</h1>
+        <p>Thanks for choosing GoodCorp, LLC!</p>
+      </header>
+
+      <section class="app-body">
+        <div class="buttons">
+          <a class="button" id="car">Wash Car: $10</a class="button">
+          <a class="button" id="mow">Mow Lawn: $20</a class="button">
+          <a class="button" id="weeds">Pull weeds: $30</a class="button">
+        </div>
+        <div class="container">
+          <div class="row">
+            <p class="task">Task</p>
+            <p class="total">Total</p>
+          </div>
+          <div class="row">
+            <p>Wash Car <span class="remove">remove</span></p>
+            <p id="car_txt" class="price">$00.0</p>
+          </div>
+          <div class="row">
+            <p>Mow Lawn <span class="remove">remove</span></p>
+            <p id="mow_txt" class="price">$00.0</p>
+          </div>
+          <div class="row">
+            <p>Pull Weeds <span class="remove">remove</span></p>
+            <p id="weed_txt" class="price">$00.0</p>
+          </div>
+        </div>
+        <footer>
+          <div class="row">
+            <p class="notes">Notes</p>
+            <p class="total-amount-title">Total Amount</p>
+          </div>
+          <div class="row">
+            <p style="align-self: center;">Will accept cash, credit card or PayPal</p>
+            <p class="total-amount" id="total-amount">$00.0</p>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <section>
+        <header>
+          <h1>Generate a <span class="random-text">random password</span></h1>
+          <p class="tagline">Never use an insecure passowrd again.</p>
+        </header>
+
+        <button id="generate_password">
+          <i class="fa-solid fa-bolt"></i>Generate password
+        </button>
+
+        <div class="divider"></div>
+
+        <div class="passwords">
+          <div class="row">
+            <p class="pwd"></p>
+            <p class="pwd"></p>
+          </div>
+          <div class="row">
+            <p class="pwd"></p>
+            <p class="pwd"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

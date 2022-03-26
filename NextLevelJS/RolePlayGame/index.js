@@ -44,5 +44,11 @@ function renderCharacters(data) {
    </div>`;
 }
 
+document.getElementById('attack-button').
+addEventListener('click', function () {
+   renderCharacters(heroChar)
+   renderCharacters(monsterChar)
+})
+
 renderCharacters(heroChar)
 renderCharacters(monsterChar)

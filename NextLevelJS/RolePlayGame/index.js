@@ -15,11 +15,9 @@ const monsterChar = {
 }
 
 function getDiceRollArray(n) {
-    const nums = []
-    for (let i = 0; i < n; i++) {
-        nums.push(Math.floor(Math.random() * 6) + 1)
-    }
-    return nums
+   return new Array(n).fill(0).map(function () {
+      return Math.floor(Math.random() * 6) + 1
+   })
 }
 
 function getDiceHTML(diceCount) {

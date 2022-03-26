@@ -32,6 +32,9 @@ section p {
 abbr {
   text-decoration: none;
 }
+img {
+  width: 100%;
+}
 h1 {
   font-size: var(--fs-h1);
 }
@@ -52,7 +55,7 @@ a:hover {
 }
 a:focus {
   background-color: var(--clr-black);
-  color:var(--clr-white);
+  color: var(--clr-white);
   outline: 1px solid var(--clr-orange);
   border-radius: 5px;
 }
@@ -104,8 +107,10 @@ main {
   width: 65%;
 }
 .container {
-  width: 70rem;
+  width: 100%;
+  max-width: 850px;
   margin: 0 auto;
+  padding: 5%;
 }
 
 /* -------------------------------------------------------- */
@@ -141,7 +146,7 @@ main {
 }
 .btn:focus {
   border-radius: 0;
-  outline: 1px solid var(--clr-orange); 
+  outline: 1px solid var(--clr-orange);
 }
 #firstBtn {
   background: var(--clr-orange);
